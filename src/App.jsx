@@ -8,7 +8,7 @@ import About from './componant/About';
 
 export default function App() {
   return (
-    <BrowserRouter basename="/ToDoList">
+    <BrowserRouter>
       <div>
         <Nav />
         <Routes>
