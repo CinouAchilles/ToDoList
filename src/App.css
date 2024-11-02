@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* App.css */
+.fourerror {
+  backdrop-filter: blur(12px);
+  max-width: 450px;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes toRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-to-right {
+  animation: toRight 0.8s ease forwards;
+}
+
+@keyframes toLeft{
+  0% {
+    opacity: 0;
+    transform:translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform:translateX(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .fourerror {
+    padding: 10px 15px;
+    width: 100%;
+  }
+}
+/* Theme styling */
+.bg-dark {
+  background-color: #1f2937;
+  color: white;
+}
+
+.bg-light {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Task item styling */
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+
+.task-list input[type="number"] {
+  width: 100px;
+}
+@media (max-width:620px) {
+  .heroundernav{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
+  }
+  .heroundernav h1{
+    margin-bottom: 47px;
+    margin-top: 50px;
+  }
+}
