@@ -1,23 +1,21 @@
-* {
-  padding: 0 !important;
-  margin: 0 !important;
-  box-sizing: border-box !important;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
-body {
-  padding: 0 !important;
-  margin: 0 !important;
-  box-sizing: border-box !important;
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-
 /* App.css */
 .fourerror {
-  backdrop-filter: blur(12px) !important;
-  max-width: 450px !important;
+  backdrop-filter: blur(12px);
+  max-width: 450px;
 }
 
 .animate-fade-in {
-  animation: fadeIn 0.8s ease-in-out !important;
+  animation: fadeIn 0.8s ease-in-out;
 }
 
 @keyframes fadeIn {
@@ -30,7 +28,6 @@ body {
     transform: translateY(0);
   }
 }
-
 @keyframes toRight {
   0% {
     opacity: 0;
@@ -43,36 +40,35 @@ body {
 }
 
 .animate-to-right {
-  animation: toRight 0.8s ease forwards !important;
+  animation: toRight 0.8s ease forwards;
 }
 
-@keyframes toLeft {
+@keyframes toLeft{
   0% {
     opacity: 0;
-    transform: translateX(100%);
+    transform:translateX(100%);
   }
   100% {
     opacity: 1;
-    transform: translateX(0);
+    transform:translateX(0);
   }
 }
 
 @media (max-width: 768px) {
   .fourerror {
-    padding: 10px 15px !important;
-    width: 100% !important;
+    padding: 10px 15px;
+    width: 100%;
   }
 }
-
 /* Theme styling */
 .bg-dark {
-  background-color: #1f2937 !important;
-  color: white !important;
+  background-color: #1f2937;
+  color: white;
 }
 
 .bg-light {
-  background-color: #ffffff !important;
-  color: black !important;
+  background-color: #ffffff;
+  color: black;
 }
 
 /* Task item styling */
@@ -80,21 +76,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 0 !important;
+  padding: 8px 0;
 }
 
 .task-list input[type="number"] {
-  width: 100px !important;
+  width: 100px;
 }
-
 @media (max-width:620px) {
-  .heroundernav {
-    display: flex !important;
-    flex-direction: column !important;
-    padding-bottom: 70px !important;
+  .heroundernav{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 70px;
   }
-  
-  .heroundernav h1 {
+  .heroundernav h1{
     margin-bottom: 48px !important;
     margin-top: 50px !important;
   }
