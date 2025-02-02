@@ -2,7 +2,7 @@
 
 Discover how TaskMaster simplifies your task management and boosts your productivity.
 ## Live Demo:
-You can check out a live version of the app here: [TaskMaster demo](https://cinouachilles.github.io/ToDoList/)
+You can check out a live version of the app here: [TaskMaster demo](https://mytaskmasterone.netlify.app/)
 
 ## Features
 
